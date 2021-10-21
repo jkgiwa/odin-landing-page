@@ -12,6 +12,8 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding: 12px 40px;
+    font-size: 18px;
 }
 
 .section-two {
@@ -96,4 +98,39 @@ a {
     border-style: solid;
     border-radius: 25%;
     border-color: #3882f6;
+    height: 100px;
+    max-width: 100px;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-2 { 
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+}
+
+.separation {
+    display:
 }
