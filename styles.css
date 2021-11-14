@@ -159,6 +159,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     border: #3882f6 2px;
     border-radius: 10px;
     height: 100px;
@@ -166,17 +167,29 @@ h1 {
     width: 1000px
 }
 
-button {
-    background-color: #3882f6;
-    width: 112px;
-    height: 30px;
-    color: #f9faf8;
-    border-color: #f9faf8;
+.btn {
+    display: block;
+    border: #f9faf8;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
+    line-height: 1;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #f9faf8;
+    outline: solid;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    margin: 0;
 }
 
-h3 {
+.btn.no-outline {
+    outline: none;
+    border: none;
+}
+
+.head-3 {
     font-size: 20px;
     font-weight: bolder;
     margin-bottom: 0px;
